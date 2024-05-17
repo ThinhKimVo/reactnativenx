@@ -12,8 +12,6 @@ import {
 } from 'react-native';
 import Svg, { G, Path } from 'react-native-svg';
 
-import { Layout } from '@reactnativenx/shared-ui-layout';
-
 export const App = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
   const scrollViewRef = useRef<null | ScrollView>(null);
@@ -26,7 +24,6 @@ export const App = () => {
           flex: 1,
         }}
       >
-        <Layout/>
         <ScrollView
           ref={(ref) => {
             scrollViewRef.current = ref;
@@ -41,7 +38,7 @@ export const App = () => {
               testID="heading"
               role="heading"
             >
-              Welcome Mobile 👋
+              Welcome Myapp 👋
             </Text>
           </View>
           <View style={styles.section}>
@@ -519,7 +516,7 @@ export const App = () => {
               </View>
               <View style={[styles.codeBlock, styles.marginBottomLg]}>
                 <Text style={[styles.textXS, styles.monospace]}>
-                  nx show project Mobile --web
+                  nx show project Myapp --web
                 </Text>
               </View>
               <View style={styles.listItem}>

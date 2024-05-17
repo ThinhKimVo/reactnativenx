@@ -10,9 +10,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven { // (4)
-          url("$rootDir/../node_modules/detox/Detox-android")
-        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle")
