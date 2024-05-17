@@ -35,13 +35,13 @@
     "simulator": {
       "type": "ios.simulator",
       "device": {
-        "type": "iPhone 14"
+        "type": "iPhone 15 Pro"
       }
     },
     "emulator": {
       "type": "android.emulator",
       "device": {
-        "avdName": "Pixel_4a_API_30"
+        "avdName": "Pixel_XL_API_32"
       }
     }
   },
